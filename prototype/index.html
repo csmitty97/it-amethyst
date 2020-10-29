@@ -2,37 +2,226 @@
 
 <html lang="en">
 
-Head Section Requirements – Place and HTML Comment after each element in the head section explaining its purpose. 
-Title
-Metatags
-Description
-Author
-Character Encoding
-Body Requirements
-Page Sections (<div id=”section-name”> or HTML5 Structural Elements where they apply)
-container – surrounds all elements within the body
-header – surrounds <h1> text
-content – This section should contain examples of the following elements. You can use the sample content from this document or create your own if you prefer.
-<h2> thru <h5>
-<p>
-<strong>
-<em>
-Three types of lists
-ordered
-unordered
-definition list
-A properly marked up quote (Examples of both an inline and block level)
-A table consisting of 5 rows and 5 columns with a horizontal heading – Make sure you include the caption and scope attributes appropriately. (You can make up content for this)
-<img> – the image source should be set to this image. Make sure you have all of the required attributes.
-navigation– That contains the following elements:
-An unordered list with four list items as links with a title attribute.
-Home
-About
-UALR – Set target attribute to _blank
-Contact
-footer
-h6 that includes a copyright symbol, the year, your name, a link that will send an email,  and a Back to Top anchor link that returns the user to the top of the page.
+<head>
+    <a id="top" name="top"></a>
+    
+      <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="_blank">UALR</a></li>
+            <li><a href="">Contact</a></li>
+            
+        </ul>
+        
+        
+    </nav>
+    <!-------------------------------------------------------------- This creates a container for the title of the article ---------------------------------------------------------------------------------------------------------->
+
+    <title>Gordo the Space Monkey</title>
+    <!--------------------------------------------------------------- This will be the title of the entire article ------------------------------------------------------------------------------------------------------------------------------->
+
+    <meta charset="UTF-8" />
+    <meta name="description" content="Gordo" "Old Reliable" "monkey" />
+    <meta name="author" content="Caleb Smith" />
+    <!--------------------------------- meta tags set the character while providing key words or phrases that help users find the site when keying in these words/phrases. ------------------------------------------------------>
+
+    
+    
+ 
+</head>
+
+<body>
+    <div class="container">
+        <header> 
+    <h1 class="logo" style="text-align: center;"><strong><em>Gordo</em></strong></h1>
+    </a></header>
+    
+        
+    <div id="Old Reliable">
+        <h2> Old Reliable </h2>
+            <p>
+                Gordo was one of the first monkeys to make it into space as part of NASA's space program. Eight monkeys had flown on NASA missions before him, five of whom went by the name of Albert. Gordo's historic flight took place on December 13, 1958 when he took
+                off from Cape Canaveral for a 15 minute flight into space. Even though he was weightless for over 8 minutes the on-board instruments indicated that Gordo enjoyed his journey into space. Scientists monitoring the flight were pleased to
+                note that the only slight side effect Gordo suffered from the entry into space was a modest slowing of his pulse.
+
+            </p>
+           
+
+    </div>
+    <!------------------------------------------------------------------------------------Closing the Old Reliable div tag ------------------------------------------------------------------------------------------------------------------>
+    <div id="The Mission">
+        <h3>The Mission</h3>
+
+        <p>
+            The rocket carrying Gordo into space would take off from the Atlantic Missile Range at Cape Canaveral, travel further than any monkey had ever travelled before - over 1,500 miles - and reach a height of 310 miles (500 km) before returning to Earth and
+            landing in the South Atlantic, 1,302 nautical miles south of Cape Canaveral.
+
+            <em>"We all heard the rumors that they want to send a monkey up first. Well, none of us wants to think that they're gonna send a monkey up to do a man's work ... what they're trying to do to us is send a man up to do a monkey's work."</em>            Deke Slayton, Mercury Seven Astronaut
+        </p>
+        <nav>
+            <img src="assets/img/gordo.jpeg" style="float:right;">
+            
+            <strong style="font-size:15px;">Gordos' Later Missions</strong>
+            <ol>
+               <li>Apollo</li>
+               <li>Maria</li>
+               <li>Galapagos</li>
+            </ol>
+            
+            
+            <strong>Gordos' Crew-Mates</strong>
+            <ul>
+            <li>George</li>
+            <li>Marco</li>
+            <li>Sebastian</li>
+            <li>Harambe</li>
+            
+            </ul>
+            
+            <dl>
+                <strong style="font-size:15px;">Terms</strong>
+                <dt><em>Space-Shuttle</em></dt>
+                <dd>a rocket-launched spacecraft, able to land like an unpowered aircraft, used to make repeated journeys between the earth and earth orbit</dd>
+                <dt><em>Missile</em></dt>
+                <dd>an object which is forcibly propelled at a target, either by hand or from a mechanical weapon</dd>
+                <dt><em>Suborbital</em></dt>
+                <dd>trajectory that does not complete a full orbit of the earth or other celestial body</dd>
+            </dl>
+            
+           
+            
+            
+        </nav>
+       
+
+    </div>
+    <div id="The Jupiter AM-13">
+        <h4> The Jupiter AM-13</h4>
+        <p>
+            The Jupiter IRBM (Intermediate Range Ballistic Missile) was originally developed by the US Army as a long-range successor to its PGM-11 Redstone missile, but was eventually taken over and deployed by the USAF for political reasons. It was also the only
+            one of the United States' early stategic ballistic missiles with some mobility. 
+            <section><strong>Flight Date: </strong> December 13, 1958</section>
+            <section><strong>Launch Time: </strong> 03.53 EST </section>
+
+        </p>
+
+    </div>
+    <!------------------------------------------------------------------------------------------Closing the "The Jupiter AM-13" div tag -------------------------------------------------------------------------------------------------->
+
+    <div id="The Journey">
+        <h5>The Journey</h5>
+        <p>
+            Gordo wore a specially customised space suit custom made for a monkey about one foot tall. The space suit was fitted with instruments, including temperature meters and microphones which recorded his historic suborbital journey, considered one of the outstanding
+            achievements of space research. 
+            <section><strong>Flight Time:</strong> 15 Minutes </section>
+           <section><strong>Apogee:</strong> 310 Miles </section>
+
+        </p>
+        <table style="border-collapse:collapse;">
+            <caption style ="font-size:30px;"><strong><em>Data for Past Shuttle Launches</strong></em></caption>
+            
+            <tr style="border:1px solid black; padding:10px 15px;">
+                <th style="border:1px solid black; padding:10px 15px;" scope="col">Ships</th>
+                <th style="border:1px solid black; padding:10px 15px;" scope="col">Enterprise</th>
+                <th style="border:1px solid black; padding:10px 15px;" scope="col">Columbia</th>
+                <th style="border:1px solid black; padding:10px 15px;" scope="col">Discovery</th>
+                <th style="border:1px solid black; padding:10px 15px;" scope="col">Challenger</th>
+                
+            </tr>
+            
+            <tr>
+                <td style="border:1px solid black; padding:10px 15px;"><strong>Duration</strong></td> 
+                <td style="border:1px solid black; padding:10px 15px;">02d4h</td>
+                <td style="border:1px solid black; padding:10px 15px;">05d7h</td>
+                <td style="border:1px solid black; padding:10px 15px;">01d3h</td>
+                <td style="border:1px solid black; padding:10px 15px;">00h 1m 13s</td>
+                
+                </tr>
+            
+            <tr>
+                <td style="border:1px solid black; padding:10px 15px;"><strong>Flight Date</strong></td>
+                <td style="border:1px solid black; padding:10px 15px;">11 November 1988</td>
+                <td style="border:1px solid black; padding:10px 15px;">04 April 1994</td>
+                <td style="border:1px solid black; padding:10px 15px;">22 June 2001</td>
+                <td style="border:1px solid black; padding:10px 15px;">28 January 1986</td>
+                
+            </tr>
+            
+            <tr>
+                <td style="border:1px solid black; padding:10px 15px;"><strong>Launch Time</strong></td>
+                <td style="border:1px solid black; padding:10px 15px;">15:00:00 EST</td>
+                <td style="border:1px solid black; padding:10px 15px;">18:30:00 EST</td>
+                <td style="border:1px solid black; padding:10px 15px;">16:15:00 UTC</td>
+                <td style="border:1px solid black; padding:10px 15px;">11:38:00 EST</td>
+        
+            </tr>
+            
+            <tr style="border:1px solid black; padding:10px 15px;">
+                <td style="border:1px solid black; padding:10px 15px;"><strong>Crew</strong></td>
+                <td style="border:1px solid black; padding:10px 15px;">3</td>
+                <td style="border:1px solid black; padding:10px 15px;">5</td>
+                <td style="border:1px solid black; padding:10px 15px;">2</td>
+                <td style="border:1px solid black; padding:10px 15px;">7</td>
+                
+            </tr>
+            
+            <tr>
+                <td style="border:1px solid black; padding:10px 15px;"><strong>Landing Site</strong></td>
+                <td style="border:1px solid black; padding:10px 15px;">Edwards</td>
+                <td style="border:1px solid black; padding:10px 15px;">White Sands</td>
+                <td style="border:1px solid black; padding:10px 15px;">Kennedy</td>
+                <td style="border:1px solid black; padding:10px 15px;">Did Not Land</td>
+            </tr>
+           
+            
+            
+        </table>
 
 
 
+    </div>
+    <!---------------------------------------------------------------------------------------------Closing the "The Journey" div tag ------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+</div>
+<!------------------------------------------------------------------------------------------Closing the Container Class for the body -------------------------------------------------------------------------------------------------------->
+
+
+<footer>
+    <h6><section> ©2020 Caleb Smith</section><section>To email us for more information, click the 
+    <a href="mailto:name@email.com">EMAIL</a> link.</section>
+    <section><a href="#top">Back to Top</a></section>
+     </h6>
+     <p>
+    The Famous Primates web site is a Web Standardistas production. XHTML + CSS released under a Creative Commons Attribution 3.0 license. Photography Copyright iStockphoto.
+       </p>
+        <div id="References">
+
+        <h6>References</h6>
+        <nav>
+            <ul>
+                <li><a href="">Remembering Gordo</a></li>
+                <li><a href="">BBC - Monkey Lost After Space Flight</a></li>
+                <li><a href="">Gordo and Laika - Space Pioneers</a></li>
+
+            </ul>
+        </nav>
+        <!----------------------------------------------------------------------------------------Created and closed an unordered list of references --------------------------------------------------------------------------------------->
+    </div>
+    
+    <!---------------------------------------------------------------------------------------------------Closed the References div tag ----------------------------------------------------------------------------------------------------->
+
+</footer>
+
+</body>
 </html>
+
+
+
+
+
+
