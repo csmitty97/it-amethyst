@@ -29,6 +29,29 @@ html {
   max-width: 900px;
 }
 
+.img-right{
+  float:right;
+  border:1px solid #c0c0c0;
+  padding:10px;
+  margin:20px 0px 10px 20px;
+  
+}
+
+.img-left{
+  float:left;
+  border:1px solid #c0c0c0;
+  padding:10px;
+  margin: 10px 20px 10px 0;
+}
+
+.img-center{
+  display:block;
+  border:1px solid blue;
+  padding:10px;
+  margin:20px auto;
+  
+}
+
 /* Responsive Images */
 
 img{
@@ -207,4 +230,70 @@ aside .widget a:link, aside .widget a:hover{
 
 aside .widget footer{
   display:none;
+}
+
+footer#column{
+  background-color:red;
+  
+}
+#colophon h6{
+  
+  margin:0;
+  padding:1.4em;
+  text-align:center;
+  font-size:.9em;
+  text-transform:uppercase;
+  color:#ffffff;
+
+}
+
+#additional-elements h2{
+  color:#36638B;
+  border-bottom:1px dotted #c0c8c0;
+  
+  
+}
+
+a:hover, a:active{
+  color:#36638b;
+  
+}
+
+a:hover, a:active{
+  text-decoration: none;
+  
+}
+
+#additional-elements h3, #additional-elements h4{
+  border-left:7px solid gray;
+  padding: 5px 10px;
+}
+
+table{
+  width:100%;
+  border:1px solid gray;
+  border-collapse:collapse;
+  margin-bottom:20px;
+  
+}
+caption{
+  font-weight;bold;
+  font-size:1.5em;
+  margin:10px;
+  
+}
+tr:nth-child(even){
+  background:lightgray;
+}
+th{
+  background-color:lime;
+  width:33%;
+  padding:10px;
+
+  
+}
+td{
+  border:1px solid gray;
+  padding:5px;
+  
 }
