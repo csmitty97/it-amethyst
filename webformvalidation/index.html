@@ -18,59 +18,60 @@
     <h5>Please fill out the form below</h5>
     
 
-<form class="formlabel"  action="https://brucebauer.info/assets/ITEC3650/datadump.php">
+<form  action="https://brucebauer.info/assets/ITEC3650/datadump.php">
+    <div class="formlabel">
 <label for="FirstName" > First Name: </label>
 <input type="text" id="FirstName" name="FirstName" size="30" maxlength="15">
+</div>
 
-</form><br>
-
-<section>
-<form class="formlabel1" action="https://brucebauer.info/assets/ITEC3650/datadump.php" >
-<label for="MiddleInitial" > Middle Initial: </label>
+<br>
+<div class="formlabel1">
+<label  for="MiddleInitial" > Middle Initial: </label>
 <input type="text" name="MiddleInitial" id="MiddleInitial" size="1" maxlength="1"> 
-</form><br>
-</section>
+</div>
+<br>
 
-<form class="formlabel" action="https://brucebauer.info/assets/ITEC3650/datadump.php" >
+
+<div class="formlabel">
 <label for="LastName" > Last Name: </label>
 <input type="text" name="LastName" size="30" maxlength="30">
-</form><br>
+</div><br>
 
-<form class="formlabel" action="https://brucebauer.info/assets/ITEC3650/datadump.php" >
+<div class="formlabel">
 <label for="Email" > Email:  </label>
 <input type="text" name="Email" size="30" maxlength="30">
-</form><br>
+</div><br>
 
-<form class="formlabel2" action="https://brucebauer.info/assets/ITEC3650/datadump.php" >
+<div class="formlabel2" >
 <label for="Sex" > Sex:  </label>
 <label for="M"><input type="radio" name="Sex" id="M" value="M">Male</label>
 <label for="F"><input type="radio" name="Sex" id="F" value="F">Female</label>
 <label for="N"><input type="radio" name="Sex" id="N" value="N">N/A</label>
-</form><br>
+</div><br>
 
-<form class="formlabel3" action="https://brucebauer.info/assets/ITEC3650/datadump.php" >
+<div class="formlabel3" >
 <label for="Birthday" > Birthday:  </label>
 <input type="text" name="Birthday" size="8" maxlength="8">
-</form><br>
+</div><br>
 
-<form class="formlabel4" action="https://brucebauer.info/assets/ITEC3650/datadump.php" >
+<div class="formlabel4"  >
 <label for="Height" > Height(inches):  </label>
 <input type="text" name="Height" size="3" maxlength="3">
-</form><br>
+</div><br>
 
-<form class="formlabel4" action="https://brucebauer.info/assets/ITEC3650/datadump.php" >
+<div class="formlabel4" >
 <label for="Weight" > Weight(pounds):  </label>
 <input type="text" name="Weight" size="3" maxlength="3">
-</form><br>
+</div><br>
 
 <hr>
 
-<form class="formlabel5" action="https://brucebauer.info/assets/ITEC3650/datadump.php" >
+<div class="formlabel5" >
 <label for="PhoneNumber" > Phone Number:  </label>
 <input type="text" name="PhoneNumber" size="14" maxlength="14">
-</form><br>
+</div><br>
 
-<form class="formlabel6" action="https://brucebauer.info/assets/ITEC3650/datadump.php" >
+<div class="formlabel6" >
 <label for="MaritalStatus" > Marital Status:  </label>
   <select name="MarialStatus" id="MaritalStatus">
     <option value="">Select a Status...</option>
@@ -80,19 +81,19 @@
     <option value="L">Legally Separated</option>
     <option value="W">Widowed</option>
   </select>
-</form><br>
+</div><br>
 
-<form class="formlabel7" action="https://brucebauer.info/assets/ITEC3650/datadump.php" >
+<div class="formlabel7"  >
 <label for="Address" > Address:  </label>
 <input type="text" name="Address" size="30" maxlength="30">
-</form><br>
+</div><br>
 
-<form class="formlabel1A" action="https://brucebauer.info/assets/ITEC3650/datadump.php" >
+<div class="formlabel1A"  >
 <label for="City" > City/State/Zip:  </label>
 <input type="text" name="City" size="30" maxlength="30"> ,
-</form>
 
-<form class="formlabel8" action="https://brucebauer.info/assets/ITEC3650/datadump.php" >
+</div>
+<div class="formlabel8"  >
   
 <select name="State" id="State" >
   
@@ -151,25 +152,25 @@
 	<option value="WY">Wyoming</option>
   
 </select>
-</form>
+</div>
 
 
-<form class="formlabel9" action="https://brucebauer.info/assets/ITEC3650/datadump.php" >
+<div class="formlabel9">
 <input type="text" name="Zip" size="5" maxlength="5"> 
-</form>
+</div>
 <br>
 <hr>
 
-<form class="formlabel1B" action="https://brucebauer.info/assets/ITEC3650/datadump.php" >
+<div class="formlabel1B">
 <label for="Medications" > Taking Medications:  </label>
 <label for="Y"><input type="radio" name="Medications" id="Y" value="Y">Yes</label>
 <label for="N"><input type="radio" name="Medications" id="N" value="N">No</label>
-</form><br>
+</div><br>  
 
-<form class="formlabel1C" action="https://brucebauer.info/assets/ITEC3650/datadump.php" >
+<div class="formlabel1C" >
 <label for="MedicationsList" > If yes, list medications here:  </label>
 
-</form>
+</div>
 <textarea name="MedicationsList" rows="3" cols="30"/> </textarea>
 
 <br>
@@ -177,6 +178,8 @@
 <br>
 
 <input type="submit" value="Submit Patient Form" name="submit"> 
+
+</form>
 
 
 
