@@ -1,0 +1,144 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+
+/* ---------------Utility Styles----------------- */
+
+.container{
+  
+  width:600vw;
+  margin: 10px auto;
+  max-width: 1000px;
+  background-color:#a8a8a8;
+  text-align:center;
+  column-width:25em;
+  padding-top:10px;
+  padding-bottom:20px;
+  width:100%;
+  
+  box-shadow: 10px 5px #888888;
+  
+
+}
+
+
+
+
+header.primary{
+    background-color:#2f55a8;
+    text-align:center;
+    font-size:1.5em;
+    font:bold;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:60px;
+}
+
+.background{
+  background-color: silver;
+  
+}
+
+
+
+header.primary nav ul{
+    padding:0;
+    display:flex;
+    flex-direction:row;
+    margin:10px;
+    padding-left:25px;
+
+}
+
+.body{
+  
+ 
+  margin:40px;
+  
+  
+}
+
+.company{
+  
+  float:left;
+  
+}
+
+a:link{
+  
+  color:black;
+  
+}
+
+a:hover{
+  color:gray;
+  
+}
+
+a:visited{
+  
+  color: white;
+  
+}
+
+
+
+.configurationcontainer{
+  column-width:25em;
+  padding:30px 25px 30px;
+  margin-top:25px auto;
+  padding-left:25px;
+  
+}
+
+.configurationhead{
+  
+  padding-bottom:150px;
+  padding-top:80px;
+  
+}
+
+.configurationlist1{
+  
+  padding-top:15px;
+  text-align:center;
+  
+}
+
+.configurationlist2{
+  
+  padding-top:10px;
+  text-align:center;
+  
+}
+
+.configurationlist3{
+  
+  padding-top:5px;
+  text-align:center;
+  
+}
+
+.footer{
+  
+  background-color:darkgray;
+  padding:5px 15px 15px 0px;
+  padding-left:20px;
+
+  
+}
+.dragonlogo{
+  
+  float:right;
+  padding-right:20px;
+  margin-top:5px;
+}

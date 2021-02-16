@@ -1,0 +1,69 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+
+
+
+
+
+header.primary{
+    background-color:#2f55a8;
+    text-align:right;
+    font-size:1.5em;
+    font:bold;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:60px;
+}
+
+
+header.primary nav ul{
+    padding:0;
+    display:flex;
+    flex-direction:row;
+    margin:10px;
+    padding-left:25px;
+
+}
+
+.background{
+    background-color:silver;
+    padding-top:50px;
+    padding-right:40px;
+    padding-left:40px;
+    
+}
+
+a:link{
+  
+  color:black;
+  
+}
+
+a:hover{
+  color:gray;
+  
+}
+
+a:visited{
+  
+  color: white;
+  
+}
+
+.footer{
+  
+  background-color:darkgray;
+  padding:5px 15px 15px 0px;
+  padding-left:20px;
+  
+}
