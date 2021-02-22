@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang-"en">
+    <head>
+     <title> Javascript Calculator </title>
+     <meta charset="utf-8">
+     <meta name="description" content="HTML, CSS" />
+     <meta name="author" content="Caleb Smith" />
+     <link rel="stylesheet" href="assets/style/style.css" type="text/css" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.min.js"></script>
+    
+    </head>
+    
+    <body>
+        <form id="calculatorform"  onsubmit="return false">
+            <h2 class="line"> JavaScript Calculator </h2>
+            
+        <fieldset>
+  <legend>Calculator</legend>
+  
+  <label for="operand1" class = "formlabel">Operand 1:</label>
+  <input type="text" id="operand1" name="operand1" data-rule-required="true"  data-msg-required="Operand 1 is Required" 
+               data-rule-number="true" data-msg-number="Operand 1 must be floating point number">
+               <label for="operand1" class="error" id="operand1error"></label>
+  
+  <br><br>
+  
+  <label for="op" class="formlabel">Operator:</label>
+  <label for="add"><input type="radio" name="op" id="add" value="+" data-rule-required="true"
+data-msg-required="Operator is Required"/>+</label>
+  <label for="subtract"><input type="radio" name="op" id="subtract" value="-">-</label>
+  <label for="multiply"><input type="radio" name="op" id="multiply" value="*">*</label>
+  <label for="divide"><input type="radio" name="op" id="divide" value="/">/</label>
+  
+  <label for="op" class="error" id="operatorerror"></label>
+  
+  
+  
+  <br><br>
+  
+  <label for="operand2" class="formlabel">Operand 2:</label>
+  <input type="text" id="operand2" name="operand2" data-rule-required="true"  data-msg-required="Operand 2 is Required" 
+               data-rule-number="true" data-msg-number="Operand 2 must be floating point number">
+               <label for="operand2" class="error" id="operand2error"></label>
+               <br><br>
+               
+               
+               
+  
+  <label for="result" class="formlabel">Result:</label><span id="result"></span><br><br>
+  
+  <input type="submit" value="Calculate" id="btnCalc" onclick="displayanswer()"value="Submit">
+  <input type="submit" value="Clear" id="btnClear" onclick="clearForm()" formnovalidate>
+ </fieldset>
+ 
+ 
+ 
+ 
+ <script src="assets/script/java.js"></script>
+ 
+</form>
+
+</body>
+
+</html>
