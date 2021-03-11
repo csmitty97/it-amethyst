@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang-"en">
+    <head>
+     <title> Javascript Unit Converter </title>
+     <meta charset="utf-8">
+     <meta name="description" content="HTML, CSS" />
+     <meta name="author" content="Caleb Smith" />
+     <link rel="stylesheet" href="assets/style/style.css" type="text/css" />
+     
+    
+    </head>
+    
+    <body>
+        <form id="unitconverterform"  onsubmit="return false">
+            <h2 class="line"> Unit Converter (AJAX) </h2>
+            
+        <fieldset>
+  <legend>Unit Converter (AJAX)</legend>
+  
+  <label for="fromvalue" class = "formlabel">From Value:</label>
+  <input type="text" id="fromvalue" name="fromvalue" data-rule-required="true"  data-msg-required="From Value is Required" 
+               data-rule-number="true" data-msg-number="From Value must be floating point number">
+               <label for="fromvalue" class="error" id="fromvalueerror"></label>
+  
+  <br><br>
+  
+   <label for="fromunit" class="formlabel">From Unit:</label>
+  <label for="centimeters"><input type="radio" name="fromunit" id="fromcentimeters" value="cm" data-rule-required="true"
+data-msg-required="From Unit is Required"/>centimeters</label>
+  <label for="meters"><input type="radio" name="fromunit" id="frommeters" value="m">meters</label>
+  <label for="kilometers"><input type="radio" name="fromunit" id="fromkilometers" value="km">kilometers</label>
+  <label for="inches"><input type="radio" name="fromunit" id="frominches" value="in">inches</label>
+  <label for="feet"><input type="radio" name="fromunit" id="fromfeet" value="ft">feet</label>
+  <label for="yards"><input type="radio" name="fromunit" id="fromyards" value="yd">yards</label>
+  <label for="miles"><input type="radio" name="fromunit" id="frommiles" value="mi">miles</label>
+  
+  <label for="fromunit" class="error" id="fromuniterror"></label>
+  
+  <br><br>
+  
+  
+  <label for="tounit" class="formlabel">To Unit:</label>
+  <label for="tocentimeters"><input type="radio" name="tounit" id="tocentimeters" value="cm" data-rule-required="true"
+data-msg-required="To Unit is Required"/>centimeters</label>
+  <label for="tometers"><input type="radio" name="tounit" id="tometers" value="m">meters</label>
+  <label for="tokilometers"><input type="radio" name="tounit" id="tokilometers" value="km">kilometers</label>
+  <label for="toinches"><input type="radio" name="tounit" id="toinches" value="in">inches</label>
+  <label for="tofeet"><input type="radio" name="tounit" id="tofeet" value="ft">feet</label>
+  <label for="toyards"><input type="radio" name="tounit" id="toyards" value="yd">yards</label>
+  <label for="tomiles"><input type="radio" name="tounit" id="tomiles" value="mi">miles</label>
+  
+  <label for="tounit" class="error" id="touniterror"></label>
+  
+  
+               <br><br>
+               
+               
+               
+  
+  <label for="result" class="formlabel">To Value:</label><span id="result"></span> <span id="resultunit"></span><br><br>
+  
+  <input type="submit" value="Calculate" id="btnCalc" onclick="displayanswer()"value="Submit">
+  <input type="submit" value="Clear" id="btnClear" onclick="clearForm()" formnovalidate>
+ </fieldset>
+ 
+ 
+ 
+ 
+
+ 
+</form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.min.js"></script>
+ <script src="assets/script/java.js"></script> 
+ 
+</body>
+
+</html>

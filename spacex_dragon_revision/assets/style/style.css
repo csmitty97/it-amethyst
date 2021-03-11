@@ -50,6 +50,7 @@ header.primary{
 
 body{
   margin:0px;
+  background:url("../img/space_background.jpg");
   
 }
 
@@ -167,4 +168,48 @@ background-color:darkgray;
   background:green;
 }
   
+}
+
+.border{
+  
+  font-size:2em;
+  border-bottom:3px solid #2f55a8;
+  padding-top:40px; 
+  padding-left:5%;
+  padding-bottom:15px;
+  color:#2f55a8;
+  text-shadow:2px 2px 2px black;
+  
+  
+}
+
+.body1{
+  
+  padding:30px 100px 15px;
+  text-indent:2em;
+  
+  
+}
+
+.table{
+    
+    border-collapse:collapse;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+.spacexlogo{
+    
+    padding-top: 30px;
+    padding-left:50px;
+    
+}
+
+.faqtitle{
+    
+    font-size:3em;
+    text-align:center;
+    top-padding:100px;
+    
 }
