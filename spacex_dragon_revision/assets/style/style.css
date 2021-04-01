@@ -45,7 +45,8 @@ header.primary{
 }
 
 .background{
-  background-color: silver;
+  background-color: black;
+  color:white;
 }
 
 body{
@@ -87,6 +88,9 @@ a:visited{
   color: white;
   
 }
+.color{
+  color:white;
+}
 
 .body h2{text-align:center;}
 
@@ -102,6 +106,7 @@ a:visited{
   
   padding-bottom:150px;
   padding-top:80px;
+  color:white;
   
 }
 
@@ -109,13 +114,15 @@ a:visited{
   
   padding-top:15px;
   text-align:center;
+  color:white;
   
 }
 
 .configurationlist2{
   
-  padding-top:10px;
+  padding-top:20px;
   text-align:center;
+  color: white;
   
 }
 
@@ -123,7 +130,7 @@ a:visited{
   
   padding-top:5px;
   text-align:center;
-  
+  color:white;
 }
 
 .footer{
@@ -145,13 +152,15 @@ background-color:darkgray;
 }
 
 .dragonlogo{
-  float:right;
-  padding-right:20px;
-  margin-top:5px;
+ position:relative;
+ left:400px;
+ bottom:150px;
 }
 
 .logo{
-  float:left;
+  position:relative;
+  right:400px;
+  bottom:150px;
 }
 
 
@@ -212,4 +221,49 @@ background-color:darkgray;
     text-align:center;
     top-padding:100px;
     
+}
+
+.hometitle{
+   font-size:3em; 
+   text-align:center; 
+   padding-top:50px; 
+   color:white;
+  
+}
+.homesubheader{
+  font-size:1.5em;
+  color:white;
+  text-align:center;
+  
+}
+
+.elon{
+  padding-top:30px;
+  
+}
+
+.compbackp{
+  
+  text-align:left; 
+  text-indent:2em;
+}
+
+.dragonheader{
+  
+  text-align:center;
+}
+
+.overviewp{
+  
+  padding:5px 0px 0px;
+  text-align:left;
+  text-indent:2em;
+}
+
+.founder{
+  font-size:1.5em;
+}
+
+h {
+  font-family: "Brush Script MT", cursive;
 }
