@@ -103,10 +103,12 @@ $( "#forexform" ).validate({
              "type":"line",
              "data": {
                     "labels": currencydate,
-                 "datasets":[{
-                     "data": currencyvalue,
-                     fill: false
-                 }]
+                    "datasets":[{
+                        "label":"Currency Value", 
+                        "data": currencyvalue,
+                        fill: false,
+                        "borderColor":"rgb(75,192,192)"
+                    }]
              },
              "options":{ 
                  responsive: false,

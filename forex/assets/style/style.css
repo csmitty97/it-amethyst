@@ -12,3 +12,16 @@
   color: red;
   padding-left: 5px;
   }
+  
+  td {
+  	border:1px solid black;
+  	padding:8px;
+  }
+  table{
+  	border-collapse:collapse;
+  }
+  
+  tr:nth-child(even){
+  	background-color:#f2f2f2;
+  	
+  }
