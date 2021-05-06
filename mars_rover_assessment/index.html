@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+  <meta charset="UTF-8" />
+  <title>IFSC 1310 - MARS ROVER</title>
+  
+  <meta name="description" content="HTML, CSS" />
+  <meta name="author" content="Caleb Smith" />
+  <link rel="stylesheet" href="assets/style/style.css" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/additional-methods.min.js"></script>
+  
+  
+  
+</head>
+
+<h2>Mars Rover Photo Explorer</h2>
+
+<body>
+    
+    <table>
+        
+        <tr class="thead">
+            <td>Rover</td>
+            <td>Mission Start</td>
+            <td>Mission End</td>
+            
+        </tr>
+        
+        <tr>
+            <td>Curiosity</td>
+            <td>08/06/2012</td>
+            <td>09/28/2019</td>
+        </tr>
+        
+        <tr>
+            <td>Opportunity</td>
+            <td>01/26/2004</td>
+            <td>06/11/2018</td>
+        </tr>
+        
+        <tr>
+            <td>Spirit</td>
+            <td>01/05/2004</td>
+            <td>03/21/2004</td>
+        </tr>
+        
+    </table>
+    
+    <h3>
+        Select a rover and picture date:
+        
+    </h3>
+    
+    <form id="roverform" onsubmit="return false" onchange="return false">
+    
+    <label for="rover" class="formlabel">Rover:</label>
+  <label for="curiosity"><input type="radio" name="rover" id="curiosity" value="curiosity" data-rule-required="true"
+data-msg-required="A Rover is Required"/>Curiosity</label>
+  <label for="opportunity"><input type="radio" name="rover" id="opportunity" value="opportunity">Opportunity</label>
+  <label for="spirit"><input type="radio" name="rover" id="spirit" value="spirit">Spirit</label>
+  
+  
+  <label for="rover" class="error" id="rovererror"></label>
+  
+  <br>
+    
+    <label for="date" class="formlabel"> Picture Date: </label>
+    <input type="date" name="date" id="date" size="10" maxlength="10" 
+data-rule-required="true" data-msg-required="Date is Required"
+data-rule-date="true" data-msg-date="Valid Date Required(MM/DD/YYYY)"  >
+
+    <label for="fromdate" class="error"></label>
+    
+    <br><br>
+    
+      <input type="submit" value="Search" id="btnCalc" onclick="roverresults()"value="Submit">
+  <input type="submit" value="Clear" id="btnClear" onclick="clearForm()" formnovalidate>
+ 
+ 
+ <hr>
+ 
+ 
+<div id="picturelist">
+<a id="anchor0" href="#" target="_blank"><img id="image0" src="#" width="100" height="100"></a>
+<a id="anchor1" href="#" target="_blank"><img id="image1" src="#" width="100" height="100"></a>
+<a id="anchor2" href="#" target="_blank"><img id="image2" src="#" width="100" height="100"></a>
+<a id="anchor3" href="#" target="_blank"><img id="image3" src="#" width="100" height="100"></a>
+<a id="anchor4" href="#" target="_blank"><img id="image4" src="#" width="100" height="100"></a>
+<a id="anchor5" href="#" target="_blank"><img id="image5" src="#" width="100" height="100"></a>
+<a id="anchor6" href="#" target="_blank"><img id="image6" src="#" width="100" height="100"></a>
+<a id="anchor7" href="#" target="_blank"><img id="image7" src="#" width="100" height="100"></a>
+<a id="anchor8" href="#" target="_blank"><img id="image8" src="#" width="100" height="100"></a>
+<a id="anchor9" href="#" target="_blank"><img id="image9" src="#" width="100" height="100"></a>
+<a id="anchor10" href="#" target="_blank"><img id="image10" src="#" width="100" height="100"></a>
+<a id="anchor11" href="#" target="_blank"><img id="image11" src="#" width="100" height="100"></a>
+<a id="anchor12" href="#" target="_blank"><img id="image12" src="#" width="100" height="100"></a>
+<a id="anchor13" href="#" target="_blank"><img id="image13" src="#" width="100" height="100"></a>
+<a id="anchor14" href="#" target="_blank"><img id="image14" src="#" width="100" height="100"></a>
+<a id="anchor15" href="#" target="_blank"><img id="image15" src="#" width="100" height="100"></a>
+<a id="anchor16" href="#" target="_blank"><img id="image16" src="#" width="100" height="100"></a>
+<a id="anchor17" href="#" target="_blank"><img id="image17" src="#" width="100" height="100"></a>
+<a id="anchor18" href="#" target="_blank"><img id="image18" src="#" width="100" height="100"></a>
+<a id="anchor19" href="#" target="_blank"><img id="image19" src="#" width="100" height="100"></a>
+<a id="anchor20" href="#" target="_blank"><img id="image20" src="#" width="100" height="100"></a>
+<a id="anchor21" href="#" target="_blank"><img id="image21" src="#" width="100" height="100"></a>
+<a id="anchor22" href="#" target="_blank"><img id="image22" src="#" width="100" height="100"></a>
+<a id="anchor23" href="#" target="_blank"><img id="image23" src="#" width="100" height="100"></a>
+<a id="anchor24" href="#" target="_blank"><img id="image24" src="#" width="100" height="100"></a>
+</div>
+ 
+ 
+ 
+ <script src="assets/script/java.js"></script>
+
+
+
+
+</form>
+</body>
+</html>

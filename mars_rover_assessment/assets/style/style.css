@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+
+.thead{
+    
+    font-weight:bold;
+}
+
+td{
+  border:1px solid gray;
+  padding:5px;
+  
+}
+
+table{
+  	border-collapse:collapse;
+  }
+  
+  .error {
+  color: red;
+  padding-left: 5px;
+  }
+  
+  .formlabel {
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	padding: 5px;
+	
+}
+
+img {
+  visibility:hidden;
+  
+}
